@@ -1,0 +1,27 @@
+
+<div class="container mb-5 mt-5">
+    <div class="row" >
+      <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-12 offset-lg-0">
+        <div class="profile-card card rounded-lg shadow p-4 p-xl-5 mb-4 text-center position-relative overflow-hidden">
+          <div class="banner"></div>
+          <img src="{{imagenUrl}}" alt="" class="img-circle mx-auto mb-3">
+          <h3 class="mb-4">{{nombre}}</h3>
+          <div class="text-left mb-4">
+            <p class="mb-2"><i class="fa fa-envelope mr-2"></i> <span style="font-weight: 650;">habilidades:</span> {{habilidades}}</p>
+            <div *ngFor="let habilidad of habilidades; let i = index">
+                <p class="mb-2"><i class="fa fa-envelope mr-2" ></i> - {{habilidad}} </p>
+            </div>
+            <p class="mb-2"><i class="fa fa-envelope mr-2"></i> <span style="font-weight: 650;">Experiencia:</span> {{experiencia}}</p>
+            <p class="mb-2"><i class="fa fa-envelope mr-2"></i> <span style="font-weight: 650;">Altura:</span> {{altura}}</p>
+            <p class="mb-2"><i class="fa fa-envelope mr-2"></i><span style="font-weight: 650;">Peso:</span> {{peso}}</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align: center;">
+        <button class="btn btn-danger" (click)="irAHome()">Home</button>
+        </div>
+  </div>
+
+ 
