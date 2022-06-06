@@ -1,4 +1,6 @@
-# PokeapiDemo
+# Pokeapi
+
+![PokeApi](https://user-images.githubusercontent.com/88548284/172107379-f7c20677-6f9f-4f45-95ed-18adc43fbe3c.gif)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
